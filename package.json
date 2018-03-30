@@ -1,0 +1,29 @@
+{
+  "name": "extract-jupyter",
+  "version": "1.0.0",
+  "description": "extract source from jupyter notebook as raw text",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc extract-jupyter.ts" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ademilly/extract-jupyter"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "jupyter",
+    "python"
+  ],
+  "author": "Aurélien Demilly",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^9.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "typescript": "^2.8.1",
+    "typescript-eslint-parser": "^14.0.0"
+  }
+}
